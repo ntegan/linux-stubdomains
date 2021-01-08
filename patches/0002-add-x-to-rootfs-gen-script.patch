@@ -1,0 +1,24 @@
+From e4050ee2e6e990bb12bd3bc75b732c69c360077b Mon Sep 17 00:00:00 2001
+From: ntegan <ntegan1@gmail.com>
+Date: Thu, 7 Jan 2021 19:54:41 -0600
+Subject: [PATCH 2/2] add +x to rootfs gen script
+
+---
+ rootfs/gen | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/rootfs/gen b/rootfs/gen
+index d237de4..ce81db1 100755
+--- a/rootfs/gen
++++ b/rootfs/gen
+@@ -1,6 +1,6 @@
+ #!/bin/bash
+ 
+-set -e
++set -ex
+ umask 022
+ 
+ cd "$(dirname "$0")/.."
+-- 
+2.29.2
+

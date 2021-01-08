@@ -52,9 +52,6 @@ find: '/root/stubdom/build/rootfs/dir/usr/local/lib64': No such file or director
 #### To Just Build Container from Dockerfile
 `make`
 
-#### To Just Enter The Container
-`make containerize`
-
-#### To Build
+#### To Build (from outside the container)
 `make build`
 

@@ -13,7 +13,14 @@ build_container: Dockerfile
 
 all: build_container
 
-#docker run --rm -v $sharedfolder:/mnt -it --name building_xen xen_build /bin/bash
+containerize:
+	docker \
+		run \
+		-it \
+		--rm \
+		-v $(CURDIR):/root \
+		$(DOCKER_CONTAINER_TAG) \
+		/bin/bash
 
 
 

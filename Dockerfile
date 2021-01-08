@@ -5,6 +5,11 @@ RUN yum -y upgrade
 
 ## Marmarek stubdom dependencies
 RUN yum -y install \
+    flex \
+    elfutils-libelf-devel \
+    bison \
+    git \
+    wget \
     python \
     zlib-devel \
     xen-devel \

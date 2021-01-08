@@ -1,0 +1,3 @@
+[submodule "stubdom"]
+	path = stubdom
+	url = https://github.com/QubesOS/qubes-vmm-xen-stubdom-linux

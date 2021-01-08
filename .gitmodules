@@ -1,3 +1,4 @@
 [submodule "stubdom"]
 	path = stubdom
 	url = https://github.com/ntegan/qubes-vmm-xen-stubdom-linux
+    reference = master

@@ -31,10 +31,3 @@ RUN yum -y install \
     busybox \
     dracut \
     inotify-tools 
-RUN wget \
-    https://ftp.qubes-os.org/repo/yum/r4.1/current/vm/fc32/rpm/qubes-libvchan-xen-devel-4.1.6-1.fc32.x86_64.rpm \
-    https://ftp.qubes-os.org/repo/yum/r4.1/current/vm/fc32/rpm/qubes-libvchan-xen-4.1.6-1.fc32.x86_64.rpm \
-    https://ftp.qubes-os.org/repo/yum/r4.1/current/vm/fc32/rpm/qubes-gui-common-devel-4.1.1-1.fc32.x86_64.rpm \
-    https://ftp.qubes-os.org/repo/yum/r4.1/current/vm/fc32/rpm/python3-u2flib-host-3.0.3-7.fc32.noarch.rpm
-RUN yum -y install qubes-*rpm python*rpm
-RUN rm -f qubes-*rpm python*rpm

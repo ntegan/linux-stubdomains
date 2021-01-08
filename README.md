@@ -14,6 +14,11 @@ Lots of qubes dependencies.
 Added most of them to Dockerfile.
 Current one is libuf2m or something, can't find it.
 
+```
+bash-5.0# make -j32 -f Makefile.stubdom
+Makefile.stubdom:171: *** "u2mfn dir not found in /usr/src/".  Stop.
+```
+
 ## Usage
 
 #### Make container
@@ -21,6 +26,7 @@ run `make`
 
 #### Enter container
 run `make containerize`
+run `cd` in container to go to root home dir
 
 #### Get sources
 run `make -j$(nproc) -C qubes-linux-stubdom get-sources`  

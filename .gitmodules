@@ -1,6 +1,3 @@
-[submodule "qubes-linux-stubdom"]
-	path = qubes-linux-stubdom
-	url = https://github.com/marmarek/qubes-vmm-xen-stubdom-linux
-[submodule "jason-linux-stubdom"]
-	path = jason-linux-stubdom
-	url = https://github.com/jandryuk/qubes-vmm-xen-stubdom-linux
+[submodule "stubdom"]
+	path = stubdom
+	url = https://github.com/ntegan/qubes-vmm-xen-stubdom-linux
